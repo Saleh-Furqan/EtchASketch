@@ -37,6 +37,9 @@ function colorSquare() {
 function changeColor(c) {
     color = c    
 }
+
+  
+
 function resetBoard() {
     let board = document.querySelector('.board')
     let squares = board.querySelectorAll('div')
@@ -56,4 +59,4 @@ document.querySelector('body').addEventListener('click', (e) => {
 })
 
 
-populateBoard(16)
+populateBoard(32)

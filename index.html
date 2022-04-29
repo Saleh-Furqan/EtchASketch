@@ -15,16 +15,16 @@
         <div class="content">
             <div class="board"></div>
             <div class="buttons">
-                <button onclick="changeColor('black')">Black</button>
-                <button onclick="changeColor('white')">Eraser</button>
-                <button onclick="changeColor('gray')">Gray</button>
-                <button onclick="changeColor('random')">Random</button>
-                <button onclick="resetBoard()">Reset</button>
+                <button id="btn" class="btn active" onclick="changeColor('black')">Black</button>
+                <button id="btn" class="btn" onclick="changeColor('white')">Eraser</button>
+                <button id="btn" class="btn" onclick="changeColor('goldenrod')">Gold</button>
+                <button id="btn" class="btn" onclick="changeColor('random')"></button>
+                <button id="btn" class="btn" onclick="resetBoard()">Reset</button>
                 
             </div>
             <div class="input-container">
-                <input type="text" placeholder="size of board" value="16" onchange="changeSize(this.value)"/>
-                <button>Set Size</button>
+                <input type="text" placeholder="board x-y" value="32" onchange="changeSize(this.value)"/>
+                <button onclick="changeSize(input.value)">Set Size</button>
             </div>
         </div>
     </div>
