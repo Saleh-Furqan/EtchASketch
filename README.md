@@ -1,2 +1,2 @@
-# OdinProject4
-Etch a Sketch
+# Etch a Sketch
+OdinProject4
